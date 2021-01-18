@@ -1,0 +1,28 @@
+.header {
+    font-family: 'Roboto Mono';
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+body {
+    background: rgb(15, 15, 15);
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto Mono';
+    color: #ffffff;
+}
+
+a:link {
+    color:seagreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:seagreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
