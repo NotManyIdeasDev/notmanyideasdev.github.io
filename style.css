@@ -26,3 +26,58 @@ a:visited {
     background-color: transparent;
     text-decoration: underline;
 }
+
+.container {
+    position:relative;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    display:block;
+    width:100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.overlay {
+    position:absolute;
+    bottom:100%;
+    left:0;
+    right: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: background-color .4s ease;
+    transition: .4s ease;
+}
+
+.container:hover .overlay {
+    bottom:0;
+    height:100%;
+    background-color: seagreen;
+}
+
+.overlaytext {
+    font-family: 'Roboto Mono';
+    text-align: center;
+    white-space: nowrap; 
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .normaltext {
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    color: #a1a1a1;
+  }
